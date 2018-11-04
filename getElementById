@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo">Click the button to change the text in this paragraph.</p>
+
+<button type="button" onclick="myfunction()">Try it</button>
+
+<script>
+function myfunction(){
+    document.getElementById("demo").innerHTML="Hello World";
+
+}
+</script>
+
+</body>
+</html>
+<!--
+getElementById() method returns the element that has the ID attribute with the specified value
+used to manipulate, get info from an element on your document
+return null if no element with specified ID exists
+return first element with the specified ID if more than one element exists with a given ID in the whole document
+-->
